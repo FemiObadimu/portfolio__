@@ -1,0 +1,530 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Noto Sans;
+}
+/* NavSection */
+
+#justNAV {
+  background-color: #0a0f22 !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: rgb(255, 145, 0) !important;
+  font-family: Nunito;
+}
+
+.fa-bars,
+.fa-institution,
+.fa-send,
+.fa-cog,
+.fa-diamond,
+.fa-shopping-cart,
+.fa-lightbulb-o,
+.fa-bar-chart,
+.fa-snowflake-o,
+.fa-twitter,
+.fa-github,
+.fa-chess-knight,
+.fa-superpowers,
+.fa-user-o,
+.fa-coffee,
+.fa-facebook,
+.fa-whatsapp,
+.fa-instagram,
+.fa-trophy,
+.fa-quote-left,
+.fa-object-group {
+  color: rgb(255, 145, 0);
+}
+
+/* BackgroundSection */
+.first-bg {
+  margin-top: 30px;
+  width: 100% !important;
+  height: 500px !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-image: url(dev-images/dev11.png);
+  position: relative;
+}
+
+.animatedtext {
+  padding-top: 350px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Nunito;
+}
+
+.txt-type {
+  background-color: rgb(255, 145, 0);
+  padding: 2px;
+}
+
+.btn1 {
+  padding: 2px 5px;
+  color: rgb(41, 54, 54);
+  background: #f4f4f4;
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  padding: 4px 5px;
+  color: rgb(41, 54, 54);
+  background: #f4f4f4;
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* INTRODUCTION BG */
+
+#about1 {
+  padding: 60px 0px;
+  background-color: #f4f4f4;
+  position: relative;
+}
+
+.colored-bg1 {
+  display: none;
+  position: absolute;
+  left: 3px;
+  top: 3;
+  width: 70px;
+  height: 70px;
+  background-color: rgb(255, 145, 0);
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.colored-bg2 {
+  position: absolute;
+  left: 30px;
+  top: 2;
+  background-color: rgb(255, 145, 0);
+  z-index: 1;
+  border-radius: 50%;
+  display: none;
+}
+
+.colored-bg3 {
+  position: absolute;
+  left: 55px;
+  top: 30px;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(255, 145, 0);
+  z-index: 1;
+  border-radius: 50%;
+  display: none;
+}
+
+.colored-bg4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 145, 0);
+  z-index: 1;
+  border-radius: 50%;
+  display: none;
+}
+.cente {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.introduction-bg {
+  border-radius: 20px;
+  background: #0a0f22;
+  color: white;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  margin: 30px 10px;
+}
+
+.text2 {
+  padding: 10px 0px;
+  font-size: 20px;
+  color: rgb(255, 145, 0);
+  font-weight: 500;
+}
+
+.icons-bg {
+  background-color: #f4f4f4;
+  width: 100px;
+  height: 100px;
+  padding: 30px 0px;
+  border-radius: 50%;
+}
+
+/* ABOUT SECTION */
+
+#about {
+  padding: 60px 0px;
+  background-color: #0a0f22;
+}
+
+.title {
+  color: white;
+  font-family: Nunito;
+}
+
+.title::before {
+  display: block;
+  width: 200px;
+  height: 7px;
+  background-color: rgb(255, 145, 0);
+  content: "";
+  padding-top: 10px;
+}
+
+.text4 {
+  padding: 10px 0px;
+  color: white;
+}
+
+.about-icons-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-basis: 50%;
+}
+
+.text5 {
+  padding: 5px 0px;
+  font-size: 25px;
+  color: white;
+}
+
+.text6 {
+  color: white;
+}
+
+.house-icon {
+  padding: 30px;
+}
+
+.part2 {
+  background-size: cover;
+  border-radius: 20px;
+  background-image: url(dev-images/dev4.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 400px;
+  height: 500px;
+}
+
+/* App Description */
+
+.app-ds {
+  padding: 60px 0px;
+}
+
+.second-bg {
+  width: 100% !important;
+  height: 400px !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-image: url(dev-images/dev3.png);
+  position: relative;
+}
+
+.third-bg {
+  width: 100% !important;
+  height: 400px !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-image: url(dev-images/dev2.png);
+  position: relative;
+}
+
+.border-right-text {
+  border-left: 7px solid rgb(255, 145, 0);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #f4f4f4;
+}
+
+.inner-bor-text {
+  font-family: Nunito;
+  color: #0a0f22;
+  font-weight: 700;
+}
+
+.bor-text1 {
+  padding: 20px;
+}
+
+.bor-text2 {
+  padding: 20px 0px;
+}
+
+.bor-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+/* works */
+
+#works {
+  padding: 60px 0px;
+  background-color: rgb(255, 145, 0);
+}
+
+.carousel {
+  width: 100% !important;
+  height: 200px !important;
+}
+
+.work-imgs {
+  width: 200px;
+  height: 150px;
+}
+
+.work-flex {
+  text-align: center !important;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+}
+
+/* FUN-FACT SECTION */
+
+.fun-fact {
+  padding: 60px 0px;
+  background: #f4f4f4;
+}
+
+.funfact-text {
+  padding: 10px 0px;
+  color: black;
+}
+
+.box-section {
+  padding: 20px 0px;
+}
+
+.box-section > .counter {
+  color: #0a0f22;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+small {
+  color: #0a0f22;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* TEAMS SECTION */
+
+#teams {
+  padding: 60px 0px;
+  background-color: #0a0f22;
+  position: relative;
+}
+
+.box1 {
+  border-radius: 20px;
+  background: #f4f4f4;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  margin: 30px 10px;
+  transition: all 0.3s ease-in 0.1s;
+}
+
+.team-bg {
+  margin-right: 0px;
+}
+
+.title2 {
+  color: white;
+  font-family: Nunito;
+}
+
+.title2::after {
+  display: block;
+  width: 100px;
+  height: 7px;
+  background-color: rgb(255, 145, 0);
+  content: "";
+  padding-top: 10px;
+  position: absolute;
+  right: 70px;
+}
+
+.team-images {
+  width: 90px;
+  height: 90px;
+
+  border-radius: 50%;
+}
+
+.box1 small {
+  color: #0a0f22;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.hide {
+  visibility: hidden !important;
+}
+.show {
+  visibility: visible !important;
+}
+.social-icons {
+  padding: 5px 0px;
+  visibility: hidden;
+  transition: all 0.3s cubic-bezier() 0.1s;
+}
+
+/* Clients */
+
+#clients {
+  padding: 60px 0px;
+  background-color: rgb(255, 145, 0);
+}
+
+.carousel {
+  width: 100% !important;
+  height: 300px !important;
+}
+
+.clients-imgs {
+  width: 200px;
+  height: 200px;
+}
+
+.work-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+}
+
+/* Contact */
+
+#contact {
+  padding: 60px 0px;
+  background-color: #0a0f22;
+}
+
+.form-control {
+  padding: 10px;
+  color: white;
+  background-color: #0a0f22;
+}
+
+.form-control:focus {
+  color: white;
+  background-color: #0a0f22;
+}
+
+.contact-text {
+  font-size: 50px;
+  font-family: Nunito;
+  padding: 20px 0px;
+  color: rgb(255, 145, 0);
+}
+
+.btn-block {
+  padding: 10px 0px;
+  color: white;
+  background: rgb(255, 145, 0);
+}
+
+/* FOOTER */
+#footer {
+  padding: 30px 0px;
+  background-color: #0a0f22;
+}
+
+.footer-text {
+  color: rgb(255, 145, 0);
+  text-align: center;
+  font-family: Nunito;
+  padding: 20px 0px;
+}
+
+@media only screen and (max-width: 700px) {
+  .text1 {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .animatedtext {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 400px;
+  }
+
+  .work-imgs {
+    width: 90px;
+    height: 90px;
+  }
+
+  .carousel {
+    width: 100% !important;
+    height: 190px !important;
+  }
+
+  .colored-bg4,
+  .colored-bg3,
+  .colored-bg2,
+  .colored-bg1 {
+    display: block;
+  }
+
+  .first-bg {
+    width: 100% !important;
+    height: 500px !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-image: url(dev-images/dev10.png);
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .work-imgs {
+    width: 70px;
+    height: 70px;
+  }
+
+  .carousel {
+    width: 100% !important;
+    height: 150px !important;
+  }
+
+  .clients-imgs {
+    width: 80px;
+    height: 80px;
+  }
+}
