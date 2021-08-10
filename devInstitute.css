@@ -1,7 +1,7 @@
 * {
   padding: 0px;
   margin: 0px;
-  font-family: Noto Sans;
+  font-family: Ubuntu;
 }
 /* NavSection */
 
@@ -12,7 +12,7 @@
 .navbar-brand,
 .nav-link {
   color: rgb(255, 145, 0) !important;
-  font-family: Nunito;
+  font-family: Ubuntu;
 }
 
 .fa-bars,
@@ -55,7 +55,7 @@
   padding-top: 350px;
   font-size: 30px;
   font-weight: 700;
-  font-family: Nunito;
+  font-family: Ubuntu;
 }
 
 .txt-type {
@@ -262,7 +262,7 @@
 }
 
 .inner-bor-text {
-  font-family: Nunito;
+  font-family: Ubuntu;
   color: #0a0f22;
   font-weight: 700;
 }
@@ -362,7 +362,7 @@ small {
 
 .title2 {
   color: white;
-  font-family: Nunito;
+  font-family: Ubuntu;
 }
 
 .title2::after {
@@ -446,7 +446,7 @@ small {
 
 .contact-text {
   font-size: 50px;
-  font-family: Nunito;
+  font-family: Ubuntu;
   padding: 20px 0px;
   color: rgb(255, 145, 0);
 }
@@ -466,19 +466,19 @@ small {
 .footer-text {
   color: rgb(255, 145, 0);
   text-align: center;
-  font-family: Nunito;
+  font-family: Ubuntu;
   padding: 20px 0px;
 }
 
 @media only screen and (max-width: 700px) {
   .text1 {
-    font-family: Nunito;
+    font-family: Ubuntu;
     font-size: 20px;
     font-weight: 600;
   }
 
   .animatedtext {
-    font-family: Nunito;
+    font-family: Ubuntu;
     font-size: 20px;
     font-weight: 500;
     padding-top: 400px;
